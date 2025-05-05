@@ -1,0 +1,35 @@
+{
+  "name": "@ypear/router",
+  "version": "0.0.1",
+  "description": "Modular hyperswarm router",
+  "main": "router.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ypear/router"
+  },
+  "scripts": {
+    "link-local": "npm link ../timing" 
+  },
+  "dependencies": {
+    "hyperswarm": "^4.7.13",
+    "protomux-rpc": "^1.7.0",
+    "b4a": "^1.6.0",
+    "cbor": "^10.0.3",
+    "graceful-goodbye": "^1.2.1",
+    "hypercore-crypto": "^3.5.0",
+    "@ypear/timing": "file:../timing"
+  },
+  "keywords": [
+    "local-first",
+    "offline-first",
+    "distributed",
+    "p2p",
+    "hypercore",
+    "corestore",
+    "hyperswarm",
+    "database",
+    "autobase"
+  ],
+  "author": "Benz Muircroft",
+  "license": "MIT"
+}
